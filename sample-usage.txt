@@ -1,0 +1,10 @@
+python music-parser.py -p a-r-rahman-hits-2-65-tamil-songs -s http://mp3.tamilwire.com
+
+The command above will help me download all mp3 links from the http://mp3.tamilwire.com/a-r-rahman-2-65-tamil-songs.html page and it will
+by default create a folder with the name a-r-rahman-hits-2-65-tamil-songs in the /<user home directory>/Music directory (this can be overriden
+by the -t option).  Also, instead of having to give all sub-path via the -p switch, you can also use the -i switch to point to a file which contains
+the various sub-paths in new lines.
+
+python music-parser.py -i songs-needed -s http://mp3.tamilwire.com
+
+Here, songs-needed is a file which contains the subpaths for which we need to look for data
